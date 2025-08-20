@@ -1,0 +1,148 @@
+/* Reset some default styles */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto; /* margin creates space outside the container */
+    padding: 20px; /* padding creates space inside the container */
+    border: 3px solid #0099cc; /* border thickness and color */
+    background-color: darkgreen; /* background color to visualize container */
+    border-radius: 8px;
+}
+
+/* Header Section */
+.header-section {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px; /* margin below heading */
+    padding-bottom: 5px; /* inner spacing below text */
+    border-bottom: 2px solid #007c91;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: darkgreen;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+/* Navigation menu */
+.site-nav {
+    background-color: #004d4d;
+    padding: 10px 0;
+    border-bottom: 4px solid #007c91;
+    background-color: darkgreen;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* space between nav items */   
+}
+
+.site-nav a {
+    color: #e0f7fa;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.site-nav a:hover {
+    background-color: #007c91;
+}
+
+/* Cards Section */
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: darkgreen;
+    padding: 20px;
+    border: 2px solid #007c91;
+    border-radius: 8px;
+}
+
+/* Card */
+.card {
+    background-color: #ffffff;
+    flex: 1; /* each card takes equal width */
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid #0099cc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Buttons */
+.btn {
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Primary button style */
+.primary-btn {
+    background-color: #007c91;
+    color: #e0f7fa;
+    border-color: #005f65;
+}
+
+.primary-btn:hover {
+    background-color: #005f65;
+}
+
+/* Secondary button style */
+.secondary-btn {
+    background-color: transparent;
+    color: darkgreen;
+    border-color: #007c91;
+    margin-top: auto; /* push button to bottom of card */
+}
+
+.secondary-btn:hover {
+    background-color: darkgreen;
+    color: #e0f7fa;
+}
+
+/* Footer */
+.footer-section {
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    background-color: darkgreen;
+    border-top: 3px solid #0099cc;
+}
